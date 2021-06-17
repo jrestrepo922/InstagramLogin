@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+
+
+
+.container{
+    background-color: #fafafa;
+    width: 348px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    height: 100%;
+    text-align: center;
+
+}
+
+
+
+.main-content-container, .secondary-content-container{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(218, 218, 218);
+    
+}
+
+.main-content-container{
+    height: 70%;
+    padding-bottom: 20px;
+}
+
+.main-content-container > img {
+
+    width: 270px;
+    height: 110px;
+
+}
+
+
+.same-width{
+    width: 77%;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="password"], input[type="submit"]{
+    width: 100%;
+    border-radius: 3px;
+}
+
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    background-color: #fafafa;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+
+
+input[type="submit"]{
+    margin-top: 8px;
+    padding: 7px;
+    color: white;
+    background-color: #B2DFFC;   
+    border: none;
+    margin-bottom: 16px;
+}
+
+
+.or-break-point{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    color: #8E8E8E;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.or-break-point .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+}
+
+.or-break-point .line:nth-of-type(1){
+    margin-right: 20px;
+}
+
+.or-break-point .line:nth-of-type(3){
+    margin-left: 20px;
+}
+
+
+.facebook-container{
+    width: 100%;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: #385185;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.facebook-container > img{
+    width: 16px;
+    height: 16px;
+    margin-right:8px ;
+    
+}
+
+.main-content-container > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #003783;
+}
+
+.secondary-content-container{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.secondary-content-container p > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #04a0dd;
+    font-weight: 700;
+}
+
+.container > p {
+    margin: 20px 0; 
+}
+
+.get-app-location-container > a{
+    list-style: none;
+}
+
+.get-app-location-container > a >img {
+    width: 136px;
+    height: 40px;
+}
+
+.get-app-location-container > a >img:first-child{
+    margin-right: 7px;
+}
+
+footer{
+    text-align: center;
+    color: #8E8E9C;
+    font-size: 14px;
+}
+
+.footer-links-container{
+    margin-bottom: 13px;
+}
+
+.footer-links-container > a{
+    text-decoration: none;
+    color: #8E8E9C;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+footer > p{
+    padding-bottom: 55px;
+}
+
+
+/* Media Querries  */
+
+@media only screen and (min-width: 875px) {
+
+    .outmost-container{
+        display: flex;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+
+    .image-container{
+        width: 454px;
+        /* background-image: url("https://assets.codepen.io/6060109/IG-phone.jpeg"); */
+        background-image: url("https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png");
+        height: 618px;
+        background-size: cover;
+        background-position: bottom;
+        margin-top: 15px; 
+        position: relative;  
+    }
+
+    .rotating-img-container{
+        position: absolute; 
+        width: 240px;
+        height: 430px;
+        background-image: url("https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg");
+        bottom: 90px;
+        /* left: 132px; */
+        left: 136px;
+        background-position: bottom;
+        background-size: 100%;
+
+    }
+
+
+
+}
+
