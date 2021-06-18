@@ -11,7 +11,10 @@ html, body{
 }
 
 
-
+.rotating-img-container > img {
+    visibility: hidden; 
+    display: none;
+}
 
 .container{
     background-color: #fafafa;
@@ -147,7 +150,7 @@ input[type="submit"]{
 }
 
 .get-app-location-container > a{
-    list-style: none;
+    text-decoration: none;
 }
 
 .get-app-location-container > a >img {
@@ -206,14 +209,18 @@ footer > p{
     .rotating-img-container{
         position: absolute; 
         width: 240px;
-        height: 430px;
-        background-image: url("https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg");
-        bottom: 90px;
-        /* left: 132px; */
+        height: 429px;
+        /* background-image: url("https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg"); */
+        bottom: 90px; 
         left: 136px;
-        background-position: bottom;
-        background-size: 100%;
+        /* background-position: bottom;
+        background-size: 100%; */
+    }
 
+    .rotating-img-container img{
+        position: absolute;
+        visibility: visible;
+        display: inline;
     }
 
 

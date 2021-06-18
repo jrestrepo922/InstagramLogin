@@ -12,7 +12,11 @@
         <div class="image-container">
             <!-- will remain empty until media queries are added -->
             <div class="rotating-img-container">
-                
+                <img src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg"    class="rotating-image" alt="inst img">
+                <img src="https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg"    class="rotating-image" alt="inst img">
+                <img src="https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg"    class="rotating-image" alt="inst img">
+                <img src="https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg"    class="rotating-image" alt="inst img">
+                <img src="https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg"    class="rotating-image" alt="inst img">
             </div>
         </div>
         <div class="container">
@@ -71,39 +75,6 @@
         <p>© 2021 Instagram from Facebook</p>
    
     </footer>
-    <script>
-      const rotatingImgContainer =  document.querySelector(".rotating-img-container"); 
-      const imagesUrlArray = [
-          "url('https://www.instagram.com/static/images/homepage/screenshot2.jpg/6f03eb85463c.jpg')",
-          "url('https://www.instagram.com/static/images/homepage/screenshot3.jpg/f0c687aa6ec2.jpg')",
-          "url('https://www.instagram.com/static/images/homepage/screenshot4.jpg/842fe5699220.jpg')",
-          "url('https://www.instagram.com/static/images/homepage/screenshot5.jpg/0a2d3016f375.jpg')",
-          "url('https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg')"
-        ]
-        
-      let counter = 0
-      setInterval(() => {
-          let imgUrl; 
-          if(counter === 0){
-            imgUrl = imagesUrlArray[counter]
-          } else if(counter === 1) {
-            imgUrl = imagesUrlArray[counter]
-          } else if(counter === 2){
-            imgUrl = imagesUrlArray[counter]
-          } else if(counter === 3){
-            imgUrl = imagesUrlArray[counter]
-          } else if(counter === 4){
-            imgUrl = imagesUrlArray[counter]
-          } else if (counter > 4){
-              counter = 0; 
-              imgUrl = imagesUrlArray[counter]
-          }
-
-          counter++; 
-
-
-          rotatingImgContainer.style.backgroundImage = imgUrl
-        }, 5000);
-    </script>
+    <script src="index.js"> </script>
 </body>
 </html>
