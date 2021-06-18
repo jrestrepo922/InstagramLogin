@@ -18,13 +18,17 @@ html, body{
 
 .container{
     background-color: #fafafa;
-    width: 348px;
+    width: 400px;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 50px;
     margin-bottom: 50px;
     height: 100%;
     text-align: center;
 
+}
+
+.outmost-container{
+    padding-top: 20px;
 }
 
 
@@ -190,7 +194,7 @@ footer > p{
 
     .outmost-container{
         display: flex;
-        width: 750px;
+        width: 800px;
         margin: 0 auto;
     }
 
@@ -215,6 +219,7 @@ footer > p{
         left: 136px;
         /* background-position: bottom;
         background-size: 100%; */
+        padding-right: 100px;
     }
 
     .rotating-img-container img{
